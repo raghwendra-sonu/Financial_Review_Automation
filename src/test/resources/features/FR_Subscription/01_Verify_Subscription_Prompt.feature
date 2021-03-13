@@ -1,7 +1,7 @@
 @Regression
 
-Feature: Verify active listigs page 
-  Scenario Outline: Verify that user is able to login to the active listings page and also verify the contents on the page
+Feature: Verify Subscription Popup
+  Scenario Outline: Verify that user is able to see Subscription popup on the articles page
     Given I am on Financial Review- Foreign Affairs website
     When I navigate to "<Article>" article on this page
     Then I verify if the subscription prompt is popped up from the bottom of the page
